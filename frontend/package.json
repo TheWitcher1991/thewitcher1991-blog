@@ -1,0 +1,30 @@
+{
+  "name": "thewitcher1991-blog",
+  "version": "1.0.0",
+  "private": true,
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Ashot Svazyan",
+    "email": "ashot.svazyan@yandex.ru"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheWitcher1991/thewitcher1991-blog"
+  },
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "prettier": "^3.4.2",
+    "turbo": "^2.4.0",
+    "typescript": "5.7.3"
+  },
+  "engines": {
+    "node": ">=20.x",
+    "pnpm": ">=9.x"
+  },
+  "packageManager": "pnpm@9.0.0"
+}
