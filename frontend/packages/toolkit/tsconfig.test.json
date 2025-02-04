@@ -1,0 +1,16 @@
+{
+  "extends": "@thewitcher1991/typescript-preset/esnext-dom.json",
+  "compilerOptions": {
+    "composite": true,
+    "declaration": true,
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    }
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": []
+}

@@ -1,5 +1,17 @@
 {
   "name": "@thewitcher1991/navigation",
   "version": "1.0.0",
-  "private": true
+  "private": true,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w"
+  },
+  "devDependencies": {
+    "@thewitcher1991/typescript-preset": "workspace:*"
+  }
 }

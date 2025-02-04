@@ -1,0 +1,29 @@
+{
+  "name": "@thewitcher1991/~name~",
+  "version": "1.0.0",
+  "private": true,
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/dts/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/dts/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "default": "./dist/index.cjs"
+    }
+  },
+  "scripts": {
+    "build": "vite build -c vite.config.ts",
+    "typecheck": "tsc --noEmit -p tsconfig.build.json"
+  },
+  "devDependencies": {
+    "@thewitcher1991/typescript-preset": "workspace:*",
+    "vite": "^6.0.11",
+    "vite-plugin-dts": "^4.5.0",
+    "vite-tsconfig-paths": "^5.1.4"
+  }
+}

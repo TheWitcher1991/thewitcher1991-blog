@@ -1,5 +1,8 @@
 {
   "name": "@thewitcher1991/typescript-preset",
   "version": "1.0.0",
-  "private": true
+  "private": true,
+  "publishConfig": {
+    "access": "public"
+  }
 }
